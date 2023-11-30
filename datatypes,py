@@ -1,0 +1,30 @@
+a = "Hi"	#str	
+b = 10	#int	
+c = 10.5	#float	
+d = 2j	#complex	
+e = ["orange", "banana", "cherry"]	#list	
+f = ("orange", "banana", "cherry")	#tuple	
+g = range(6)	#range	
+h = {"name" : "Joe", "age" : 56}	#dict	
+i = {"orange", "banana", "cherry"}	#set	
+j = frozenset({"orange", "banana", "cherry"})	#frozenset	
+k = True	#bool	
+l = b"Hi"	#bytes	
+m = bytearray(5)	#bytearray	
+n = memoryview(bytes(5))	#memoryview
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))
+print(type(j))
+print(type(k))
+print(type(l))
+print(type(m))
+print(type(n))
+
